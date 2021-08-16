@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Erp auto login
-// @version      1.0.2
+// @version      1.0.3
 // @namespace    https://newerp.kluniversity.in/
 // @author       sandeep from kl
 // @description  Auto login
@@ -11,9 +11,19 @@
 // @downloadURL  https://github.com/somethingsrsocrazy/test-login/raw/main/test.user.js
 // ==/UserScript==
 
+
 // ------------- Change username&password Below -----------
 
-var username = "**********";
-var password = "**********";
+var username = "190170021";
+var password = "klu123";
 
 // ------------- Change username&password Above -----------
+// ========================================================
+// ------------- Do not Change the Below ------------------
+
+var loginclick = document.querySelector("#navbar2 > ul > li:nth-child(3) > a").click()
+setTimeout(function() {UandP();}, 500);
+var imagecaptcha = document.getElementById("loginform-captcha-image");
+setTimeout(function() {solver();}, 500);
+
+// ------------- Do not Change the Above ------------------
