@@ -1,4 +1,9 @@
-var id = document.querySelector("#navbar2 > ul > li:nth-child(3) > a").click()
+
+function UandP() {
+        document.getElementById("loginform-username").value = username;
+        document.getElementById("loginform-password").value = password;
+    }
+
 function solver(){
 const { createWorker, createScheduler } = Tesseract;
 
@@ -14,14 +19,8 @@ const scheduler = createScheduler();
     await w.initialize('eng');
     scheduler.addWorker(w);
   }
-  function UandP() {
-        document.getElementById("loginform-username").value = username;
-        document.getElementById("loginform-password").value = password;
-    }
-    setTimeout(function() {
-        UandP();
-    }, 1500);
-    var image = document.getElementById("loginform-captcha-image");
+  
+    var image = imagecaptcha;
     const rets = await Promise.all(Array(40).fill(0).map(() => (scheduler.addJob('recognize',image))));
     var finalresult = rets.map(r => r.data.text.replaceAll(' ', '').toLowerCase());
       console.log(finalresult);
@@ -74,6 +73,3 @@ function find_duplicate_in_array(array) {
 
 }
 }
-setTimeout(function() {
-   solver();
-}, 500);
