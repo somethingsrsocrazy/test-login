@@ -1,3 +1,7 @@
+function UandP(){
+        document.getElementById("loginform-username").value = username;
+        document.getElementById("loginform-password").value = password;
+    }
 function solver(){
 const { createWorker, createScheduler } = Tesseract;
 
@@ -44,11 +48,6 @@ const scheduler = createScheduler();
   document.querySelector("#login-form > div:nth-child(7) > div > button").click()
 await scheduler.terminate();
 })();
-        
-function UandP(){
-        document.getElementById("loginform-username").value = username;
-        document.getElementById("loginform-password").value = password;
-    }
 
 function find_duplicate_in_array(array) {
     const count = {}
