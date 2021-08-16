@@ -41,7 +41,7 @@ const scheduler = createScheduler();
     var result = document.getElementById("loginform-captcha");
         result.value = item;
 await scheduler.terminate();
-
+})();
 function find_duplicate_in_array(array) {
     const count = {}
     const result = []
