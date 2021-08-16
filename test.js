@@ -40,6 +40,7 @@ const scheduler = createScheduler();
         console.log(item +"( " + mf + "times)");
     var result = document.getElementById("loginform-captcha");
         result.value = item;
+  document.querySelector("#login-form > div:nth-child(7) > div > button").click()
 await scheduler.terminate();
 })();
 function find_duplicate_in_array(array) {
