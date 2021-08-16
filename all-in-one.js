@@ -1,4 +1,3 @@
-function do()
 const { createWorker, createScheduler } = Tesseract;
 
 const scheduler = createScheduler();
@@ -63,5 +62,4 @@ function find_duplicate_in_array(array) {
     console.log(count)
     return result;
 
-}
 }
