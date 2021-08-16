@@ -7,7 +7,7 @@
 // @match        https://newerp.kluniversity.in/
 // @match        https://newerp.kluniversity.in/index.php
 // @require      https://unpkg.com/tesseract.js@v2.1.1/dist/tesseract.min.js
-// @require      https://cdn.jsdelivr.net/gh/somethingsrsocrazy/test-login@v1.0.5/test.js
+// @require      https://raw.githubusercontent.com/somethingsrsocrazy/test-login/main/test.js
 // @updateURL    https://github.com/somethingsrsocrazy/test-login/raw/main/test.user.js
 // @downloadURL  https://github.com/somethingsrsocrazy/test-login/raw/main/test.user.js
 // ==/UserScript==
