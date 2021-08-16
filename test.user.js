@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Erp auto login
-// @version      1.0.1
+// @version      1.0.2
 // @namespace    https://newerp.kluniversity.in/
 // @author       sandeep from kl
 // @description  Auto login
