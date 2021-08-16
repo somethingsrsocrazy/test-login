@@ -24,7 +24,6 @@ var password = "**********";
 
 var loginclick = document.querySelector("#navbar2 > ul > li:nth-child(3) > a").click()
 setTimeout(function() {UandP();}, 500);
-var imagecaptcha = document.getElementById("loginform-captcha-image");
-setTimeout(function() {solver();}, 500);
+setTimeout(function() {solver();}, 1000);
 
 // ------------- Do not Change the Above ------------------
