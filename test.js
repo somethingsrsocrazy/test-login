@@ -1,4 +1,4 @@
-function solver(){
+// function solver(){
 const { createWorker, createScheduler } = Tesseract;
 
 const scheduler = createScheduler();
@@ -13,7 +13,7 @@ const scheduler = createScheduler();
     await w.initialize('eng');
     scheduler.addWorker(w);
   }
-    var image = captchaimage;
+    var image = document.getElementById("loginform-captcha-image");
     const rets = await Promise.all(Array(40).fill(0).map(() => (scheduler.addJob('recognize',image))));
     var finalresult = rets.map(r => r.data.text.replaceAll(' ', '').toLowerCase());
       console.log(finalresult);
@@ -64,7 +64,7 @@ function find_duplicate_in_array(array) {
     return result;
 
 }
-}
-setTimeout(function() {
-    solver();
-}, 1500);
+// }
+// setTimeout(function() {
+//     solver();
+// }, 1500);
