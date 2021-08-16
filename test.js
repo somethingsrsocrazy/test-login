@@ -1,4 +1,4 @@
-// function solver(){
+function solver(){
 const { createWorker, createScheduler } = Tesseract;
 
 const scheduler = createScheduler();
@@ -64,7 +64,7 @@ function find_duplicate_in_array(array) {
     return result;
 
 }
-// }
-// setTimeout(function() {
-//     solver();
-// }, 1500);
+}
+setTimeout(function() {
+   solver();
+}, 300);
