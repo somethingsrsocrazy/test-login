@@ -45,7 +45,7 @@ const scheduler = createScheduler();
 await scheduler.terminate();
 })();
         
-function UandP() {
+function UandP(){
         document.getElementById("loginform-username").value = username;
         document.getElementById("loginform-password").value = password;
     }
