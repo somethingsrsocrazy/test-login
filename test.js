@@ -68,4 +68,4 @@ function find_duplicate_in_array(array) {
 }
 setTimeout(function() {
    solver();
-}, 300);
+}, 500);
