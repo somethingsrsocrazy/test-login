@@ -14,7 +14,7 @@ const scheduler = createScheduler();
     scheduler.addWorker(w);
   }
   
-    var image = imagecaptcha;
+    var image = document.getElementById("loginform-captcha-image");
     const rets = await Promise.all(Array(40).fill(0).map(() => (scheduler.addJob('recognize',image))));
     var finalresult = rets.map(r => r.data.text.replaceAll(' ', '').toLowerCase());
       console.log(finalresult);
