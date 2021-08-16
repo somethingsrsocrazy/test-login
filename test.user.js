@@ -4,7 +4,7 @@
 // @namespace    https://newerp.kluniversity.in/
 // @author       sandeep from kl
 // @description  Auto login
-// @namespace    https://newerp.kluniversity.in/
+// @match        https://newerp.kluniversity.in/
 // @match        https://newerp.kluniversity.in/index.php
 // @require      https://unpkg.com/tesseract.js@v2.1.1/dist/tesseract.min.js
 // @require      https://cdn.jsdelivr.net/gh/somethingsrsocrazy/test-login@v1.0.2/test.js
