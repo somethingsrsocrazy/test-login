@@ -14,8 +14,8 @@
 
 // ------------- Change username&password Below -----------
 
-var username = "190170021";
-var password = "klu123";
+var username = "**********";
+var password = "**********";
 
 // ------------- Change username&password Above -----------
 // ========================================================
