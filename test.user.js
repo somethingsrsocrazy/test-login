@@ -25,7 +25,7 @@ var password = "**********";
 // ------------- Do not Change the Below ------------------
 
 var loginclick = document.querySelector("#mobile_bg > div:nth-child(1) > div:nth-child(1) > div > div > div > a:nth-child(1)").click()
-setTimeout(function() {UandP();}, 500);
+setTimeout(function() {UandP();progress_bar();}, 500);
 setTimeout(function() {solver();}, 1000);
 
 // ------------- Do not Change the Above ------------------
