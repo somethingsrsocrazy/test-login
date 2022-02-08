@@ -12,7 +12,6 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/2.1.1/worker.min.js
 // @require      https://unpkg.com/tesseract.js-core@2.2.0/tesseract-core.wasm.js
 // @require      https://raw.githubusercontent.com/somethingsrsocrazy/test-login/main/test.js
-// @require      http://tessdata.projectnaptha.com/4.0.0_best/eng.traineddata.gz
 // @updateURL    https://github.com/somethingsrsocrazy/test-login/raw/main/test.user.js
 // @downloadURL  https://github.com/somethingsrsocrazy/test-login/raw/main/test.user.js
 // ==/UserScript==
