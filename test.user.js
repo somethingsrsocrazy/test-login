@@ -7,9 +7,7 @@
 // @match        https://newerp.kluniversity.in/
 // @match        https://newerp.kluniversity.in/index.php
 // @require      https://unpkg.com/tesseract.js@2.1.1/dist/tesseract.min.js
-// @require      https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/2.1.1/tesseract.min.js.map
 // @require      https://unpkg.com/tesseract.js@2.1.1/dist/worker.min.js
-// @require      https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/2.1.1/worker.min.js
 // @require      https://unpkg.com/tesseract.js-core@2.2.0/tesseract-core.wasm.js
 // @require      https://raw.githubusercontent.com/somethingsrsocrazy/test-login/main/test.js
 // @updateURL    https://github.com/somethingsrsocrazy/test-login/raw/main/test.user.js
